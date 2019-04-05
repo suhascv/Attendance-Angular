@@ -1,0 +1,32 @@
+<div>
+  <div *ngFor="let Data of Array">
+
+    <!--<div *ngIf="button.switchId.Name === 'Temp' ; else original"></div>-->
+    <!--<ng-template #original>-->
+      <table class="table table-bordered">
+        <th [ngClass] = "Data.Attendance < 85 ? lessClass: null" >{{Data.Name}}</th>
+        <tr>
+          <td>
+          <!--<td class="col-md-2">-->
+           {{Data.Attendance}} %
+          </td>
+          <!--<td class="col-md-3">-->
+         <td>
+            {{Data.USN}}
+          </td>
+          <!--<td class="col-md-1">-->
+     <td>
+              {{Data.CIE}}
+          </td>
+          <!--<td class="col-md-6">-->
+ <td>
+            {{Data.Subject}}
+          </td>
+        </tr>
+      </table>
+    <!--</ng-template>-->
+  </div>
+
+  <a routerLink="/excel" routerLinkActive class="btn btn-outline-dark">Download</a>
+
+</div>

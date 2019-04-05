@@ -1,0 +1,24 @@
+.titleDesign{
+    color:   #6699FF;
+  /*font-family: angilla;*/
+    font-size: 130px;
+    margin-top: 200px;
+    margin-left: 300px ;
+  }
+
+.titleDesign2{
+  color:   #6699FF;
+  /*font-family: angilla;*/
+  font-size: 130px;
+  margin-top: 20px;
+  margin-left: 500px ;
+}
+
+.navLinkSpacing{
+  margin-left: 10px;
+}
+.navMargin{
+    margin-left: 500px;
+  }
+
+
