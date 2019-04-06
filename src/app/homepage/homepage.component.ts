@@ -23,6 +23,7 @@ export class HomepageComponent implements OnInit {
   }
 
   lessClass = {
+    // To show names in red whose attendance is blow 85%
     'text-danger': true
   };
 
