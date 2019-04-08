@@ -17,6 +17,7 @@ export class FireModService {
 
 
   getState(): boolean {
+    console.log(this.userNow);
     if (this.userNow !== undefined && this.userNow !== null) {
       return true;
     } else {

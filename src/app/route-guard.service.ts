@@ -9,6 +9,7 @@ export class RouteGuardService implements CanActivate {
 
 
   canActivate() {
+    console.log(this.service.getState());
     if (this.service.getState() === true) {
       return true;
     } else {

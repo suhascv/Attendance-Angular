@@ -2,11 +2,7 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-bs-navbar',
-  template: `
-    <p>
-      bs-navbar works!
-    </p>
-  `,
+  templateUrl: './bs-navbar.component.html',
   styles: []
 })
 export class BsNavbarComponent implements OnInit {
