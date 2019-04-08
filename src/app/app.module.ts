@@ -4,6 +4,7 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LoginPComponent } from './login-p/login-p.component';
+import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import { HomePComponent } from './home-p/home-p.component';
 import {environment} from '../environments/environment';
 import {FormsModule} from '@angular/forms';
@@ -27,6 +28,7 @@ import { BsNavbarComponent } from './bs-navbar/bs-navbar.component';
     BrowserModule,
     AppRoutingModule,
     FormsModule,
+    NgbModule.forRoot(),
     AngularFireModule.initializeApp(environment.firebase),
     AngularFireDatabaseModule
   ],
