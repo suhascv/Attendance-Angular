@@ -13,13 +13,15 @@ import {AngularFirestore} from '@angular/fire/firestore';
 import {AngularFireAuth} from '@angular/fire/auth';
 import { HomepageComponent } from './homepage/homepage.component';
 import { ExcelJSONComponent } from './excel-json/excel-json.component';
+import { BsNavbarComponent } from './bs-navbar/bs-navbar.component';
 @NgModule({
   declarations: [
     AppComponent,
     LoginPComponent,
     HomePComponent,
     HomepageComponent,
-    ExcelJSONComponent
+    ExcelJSONComponent,
+    BsNavbarComponent
   ],
   imports: [
     BrowserModule,
