@@ -15,6 +15,7 @@ import {AngularFireAuth} from '@angular/fire/auth';
 import { HomepageComponent } from './homepage/homepage.component';
 import { ExcelJSONComponent } from './excel-json/excel-json.component';
 import { BsNavbarComponent } from './bs-navbar/bs-navbar.component';
+import { EndangeredComponent } from './endangered/endangered.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,7 +23,8 @@ import { BsNavbarComponent } from './bs-navbar/bs-navbar.component';
     HomePComponent,
     HomepageComponent,
     ExcelJSONComponent,
-    BsNavbarComponent
+    BsNavbarComponent,
+    EndangeredComponent
   ],
   imports: [
     BrowserModule,
